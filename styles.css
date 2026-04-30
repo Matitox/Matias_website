@@ -163,6 +163,25 @@ h3 {
   margin-top: 0.6rem;
 }
 
+.inline-link-row {
+  margin-top: 0.45rem;
+}
+
+.inline-photo {
+  margin-top: 0.8rem;
+  width: min(100%, 620px);
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  display: block;
+  background: #e5e7eb;
+}
+
+.small-photo {
+  width: min(100%, 320px);
+}
+
 .enim-gallery {
   margin-top: 0.9rem;
   display: grid;
