@@ -182,6 +182,11 @@ h3 {
   width: min(100%, 320px);
 }
 
+.natural-photo {
+  aspect-ratio: auto;
+  object-fit: contain;
+}
+
 .enim-gallery {
   margin-top: 0.9rem;
   display: grid;
