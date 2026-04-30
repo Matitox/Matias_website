@@ -163,6 +163,21 @@ h3 {
   margin-top: 0.6rem;
 }
 
+.enim-gallery {
+  margin-top: 0.9rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(220px, 1fr));
+  gap: 0.85rem;
+}
+
+.enim-gallery img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+}
+
 a {
   color: var(--primary);
 }
@@ -200,5 +215,9 @@ a:hover {
   .profile-photo {
     justify-self: start;
     max-width: 360px;
+  }
+
+  .enim-gallery {
+    grid-template-columns: 1fr;
   }
 }
