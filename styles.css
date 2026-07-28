@@ -140,6 +140,24 @@ h3 {
   font-size: 0.95rem;
 }
 
+.teaching-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+
+.teaching-block {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 1.15rem;
+}
+
+.teaching-period {
+  margin: -0.1rem 0 0.8rem 0;
+  color: var(--muted);
+}
+
 .timeline {
   margin: 0;
   padding-left: 1.25rem;
@@ -253,6 +271,10 @@ a:hover {
   }
 
   .enim-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .teaching-grid {
     grid-template-columns: 1fr;
   }
 }
