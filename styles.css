@@ -158,6 +158,14 @@ h3 {
   color: var(--muted);
 }
 
+.teaching-block .teaching-list li {
+  margin-bottom: 0.85rem;
+}
+
+.teaching-block .teaching-list li:last-child {
+  margin-bottom: 0;
+}
+
 .timeline {
   margin: 0;
   padding-left: 1.25rem;
